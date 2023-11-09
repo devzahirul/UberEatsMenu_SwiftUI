@@ -16,6 +16,13 @@
 		D4713CE72AFC7EFD00052F7E /* UberEatsMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713CE62AFC7EFD00052F7E /* UberEatsMenuTests.swift */; };
 		D4713CF12AFC7EFD00052F7E /* UberEatsMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713CF02AFC7EFD00052F7E /* UberEatsMenuUITests.swift */; };
 		D4713CF32AFC7EFD00052F7E /* UberEatsMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713CF22AFC7EFD00052F7E /* UberEatsMenuUITestsLaunchTests.swift */; };
+		D4713D002AFC7FE200052F7E /* UberEatMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713CFF2AFC7FE200052F7E /* UberEatMenu.swift */; };
+		D4713D022AFC830100052F7E /* MenuBarOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713D012AFC830100052F7E /* MenuBarOptions.swift */; };
+		D4713D042AFC840C00052F7E /* MenuOptionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713D032AFC840C00052F7E /* MenuOptionList.swift */; };
+		D4713D062AFC87FF00052F7E /* MenuItemSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713D052AFC87FF00052F7E /* MenuItemSection.swift */; };
+		D4713D082AFC895600052F7E /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713D072AFC895600052F7E /* FoodItem.swift */; };
+		D4713D0A2AFC983000052F7E /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713D092AFC983000052F7E /* OffsetKey.swift */; };
+		D4713D0C2AFC99D100052F7E /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4713D0B2AFC99D100052F7E /* OffsetModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		D4713CEC2AFC7EFD00052F7E /* UberEatsMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberEatsMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4713CF02AFC7EFD00052F7E /* UberEatsMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberEatsMenuUITests.swift; sourceTree = "<group>"; };
 		D4713CF22AFC7EFD00052F7E /* UberEatsMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberEatsMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4713CFF2AFC7FE200052F7E /* UberEatMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberEatMenu.swift; sourceTree = "<group>"; };
+		D4713D012AFC830100052F7E /* MenuBarOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarOptions.swift; sourceTree = "<group>"; };
+		D4713D032AFC840C00052F7E /* MenuOptionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionList.swift; sourceTree = "<group>"; };
+		D4713D052AFC87FF00052F7E /* MenuItemSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemSection.swift; sourceTree = "<group>"; };
+		D4713D072AFC895600052F7E /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		D4713D092AFC983000052F7E /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
+		D4713D0B2AFC99D100052F7E /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +118,13 @@
 				D4713CD92AFC7EFD00052F7E /* Persistence.swift */,
 				D4713CDB2AFC7EFD00052F7E /* UberEatsMenu.xcdatamodeld */,
 				D4713CD62AFC7EFD00052F7E /* Preview Content */,
+				D4713CFF2AFC7FE200052F7E /* UberEatMenu.swift */,
+				D4713D012AFC830100052F7E /* MenuBarOptions.swift */,
+				D4713D032AFC840C00052F7E /* MenuOptionList.swift */,
+				D4713D052AFC87FF00052F7E /* MenuItemSection.swift */,
+				D4713D072AFC895600052F7E /* FoodItem.swift */,
+				D4713D092AFC983000052F7E /* OffsetKey.swift */,
+				D4713D0B2AFC99D100052F7E /* OffsetModifier.swift */,
 			);
 			path = UberEatsMenu;
 			sourceTree = "<group>";
@@ -263,10 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4713D002AFC7FE200052F7E /* UberEatMenu.swift in Sources */,
+				D4713D062AFC87FF00052F7E /* MenuItemSection.swift in Sources */,
 				D4713CDA2AFC7EFD00052F7E /* Persistence.swift in Sources */,
+				D4713D042AFC840C00052F7E /* MenuOptionList.swift in Sources */,
+				D4713D082AFC895600052F7E /* FoodItem.swift in Sources */,
 				D4713CDD2AFC7EFD00052F7E /* UberEatsMenu.xcdatamodeld in Sources */,
+				D4713D0A2AFC983000052F7E /* OffsetKey.swift in Sources */,
 				D4713CD32AFC7EFC00052F7E /* ContentView.swift in Sources */,
 				D4713CD12AFC7EFC00052F7E /* UberEatsMenuApp.swift in Sources */,
+				D4713D022AFC830100052F7E /* MenuBarOptions.swift in Sources */,
+				D4713D0C2AFC99D100052F7E /* OffsetModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
